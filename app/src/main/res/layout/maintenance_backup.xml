@@ -1,0 +1,63 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ui.fragment.cmss.MaintenanceBackup">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_main"
+        android:background="@drawable/cms_sample"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_maintenance"
+        android:layout_below="@+id/img_main"
+        android:layout_marginStart="155dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/cms_main"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_maint_op"
+            android:layout_below="@+id/img_maintenance"
+            android:layout_marginStart="155dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/cms_maint_option"/>
+
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_maint_fin"
+            android:layout_below="@+id/img_maint_op"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/cms_miant_final"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="9dp"
+            android:layout_below="@+id/img_maint_fin"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_networ"
+            android:layout_marginTop="9dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/img_maint_fin"
+            android:text="Just follow above steps properly once backup finish just collect the logs."/>
+
+
+
+    </RelativeLayout>
+</ScrollView>

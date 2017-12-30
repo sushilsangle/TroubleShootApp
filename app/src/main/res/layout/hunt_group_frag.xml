@@ -1,0 +1,203 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ui.fragment.acd.HuntGroup">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txt_change_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c7d9db"
+        android:text="change hunt-group 777" />
+
+
+    <TextView
+        android:id="@+id/txt_hunt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Hunt Group" />
+
+    <TextView
+        android:id="@+id/txt_hunt_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Group Number  :  999777" />
+
+
+    <TextView
+        android:id="@+id/txt_hunt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt_no"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginLeft="10dp"
+        android:text="Group Name  :  Test_Hunt" />
+    <TextView
+        android:id="@+id/txt_hunt_exten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginLeft="10dp"
+        android:text="Group Extension  :  xxx" />
+
+
+    <TextView
+        android:id="@+id/txt_hunt_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt_exten"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="10dp"
+        android:text="Group Type  :  Y/N" />
+
+    <TextView
+        android:id="@+id/txt_hunt_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt_type"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="10dp"
+        android:text="Group TN  :  xxx" />
+    <TextView
+        android:id="@+id/txt_hunt_cor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt_ten"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="10dp"
+        android:text="Group COR  :  xxx" />
+
+    <TextView
+        android:id="@+id/txt_hunt_acd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt_cor"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginLeft="10dp"
+        android:text="Group ACD  :  Y/N" />
+    <TextView
+        android:id="@+id/txt_hunt_queue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt_acd"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginLeft="10dp"
+        android:text="Group ACD  :  Y" />
+    <TextView
+        android:id="@+id/txt_hunt_vector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt_queue"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="10dp"
+        android:text="Group Vector  :  xxx" />
+
+    <TextView
+        android:id="@+id/txt_hunt_skill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt_vector"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginLeft="10dp"
+        android:text="Group Skill?  :  Y" />
+    <TextView
+        android:id="@+id/txt_hunt_measured"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt_skill"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="10dp"
+        android:text="Group Measured  :  both" />
+    <TextView
+        android:id="@+id/txt_change_idd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c7d9db"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txt_hunt_measured"
+        android:text="change hunt-group 777" />
+
+
+    <TextView
+        android:id="@+id/txt_hunt_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_change_idd"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="10dp"
+        android:text="Hunt/Skill related commands..!" />
+
+    <TextView
+        android:id="@+id/txt_hunt_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt_info"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="10dp"
+        android:text="change hunt-group  :  xxx" />
+    <TextView
+        android:id="@+id/txt_hunt_dupl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt_change"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="10dp"
+        android:text="duplicate hunt-group  :  xxx" />
+    <TextView
+        android:id="@+id/txt_hunt_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt_dupl"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="10dp"
+        android:text="list hunt-group  :  xxx" />
+    <TextView
+        android:id="@+id/txt_hunt_listt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt_list"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="10dp"
+        android:text="list hunt-group  :  xxx" />
+    <TextView
+        android:id="@+id/txt_hunt_monitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hunt_listt"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="10dp"
+        android:text="monitor bcms skill  :  xxx" />
+
+
+
+</RelativeLayout>
+</ScrollView>

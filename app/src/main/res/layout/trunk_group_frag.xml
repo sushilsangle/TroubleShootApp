@@ -1,0 +1,209 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.ui.fragment.acd.VDN">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/txt_change_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#c7d9db"
+            android:text="display trunk-group 923" />
+
+        <TextView
+            android:id="@+id/txt_vdn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_change_id"
+            android:text="Trunk Group" />
+        <TextView
+            android:id="@+id/txt_vdn_extension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:layout_below="@+id/txt_vdn"
+            android:text="Group Number  : 9997" />
+
+        <TextView
+            android:id="@+id/txt_vdn_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/txt_vdn_extension"
+            android:text="Group Name  : Test Trunk" />
+        <TextView
+            android:id="@+id/txt_vdn_desti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="162dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/txt_vdn_name"
+            android:text="Direction : two-way" />
+        <TextView
+            android:id="@+id/txt_vdn_overrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/txt_vdn_desti"
+            android:text="group Type  : ISDN/SIP" />
+        <TextView
+            android:id="@+id/txt_vdn_cor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="186dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/txt_vdn_overrid"
+            android:text="COR  : xxx" />
+        <TextView
+            android:id="@+id/txt_vdn_ten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/txt_vdn_cor"
+            android:text="TN  : xxx" />
+
+        <TextView
+            android:id="@+id/txt_vdn_measured"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="149dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/txt_vdn_ten"
+            android:text="CD Report  : Y/N" />
+
+        <TextView
+            android:id="@+id/txt_vdn_originext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="134dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/txt_vdn_measured"
+            android:text="Service Type : tie" />
+
+        <TextView
+            android:id="@+id/txt_vdn_skillf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="183dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/txt_vdn_originext"
+            android:text="TAC  : #923" />
+        <TextView
+            android:id="@+id/txt_trunk_carrie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="113dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/txt_vdn_skillf"
+            android:text="Carrier Medium  : PRI/BRI" />
+
+        <TextView
+            android:id="@+id/txt_trunk_signaling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="109dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/txt_trunk_carrie"
+            android:text="Signaling Group  : 923" />
+
+
+
+
+        <TextView
+            android:id="@+id/txt_change_displ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#c7d9db"
+            android:layout_below="@+id/txt_trunk_signaling"
+            android:text="display trunk-group   923" />
+        <TextView
+            android:id="@+id/txt_vdn_chang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_below="@+id/txt_change_displ"
+            android:text="!! Trunk-Group related commands. !!" />
+
+
+        <TextView
+            android:id="@+id/txt_vdn_duplicate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="77dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/txt_vdn_chang"
+            android:text="duplicate trunk-group  : xxx" />
+        <TextView
+            android:id="@+id/txt_vdn_changev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="111dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/txt_vdn_duplicate"
+            android:text="add trunk-group  : xxx" />
+        <TextView
+            android:id="@+id/txt_vdn_listusg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/txt_vdn_changev"
+            android:text="change trunk-group  : xxx" />
+        <TextView
+            android:id="@+id/txt_vdn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="114dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/txt_vdn_listusg"
+            android:text="list trunk-group  : xxx" />
+        <TextView
+            android:id="@+id/txt_trunk_sig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="63dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/txt_vdn_add"
+            android:text="display signaling-group  : xxx" />
+        <TextView
+            android:id="@+id/txt_star_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_below="@+id/txt_trunk_sig"
+            android:text="*******    *******" />
+
+
+    </RelativeLayout>
+</ScrollView>

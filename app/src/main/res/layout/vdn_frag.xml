@@ -1,0 +1,186 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ui.fragment.acd.VDN">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txt_change_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c7d9db"
+        android:text="display vdn 999" />
+
+    <TextView
+        android:id="@+id/txt_vdn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txt_change_id"
+        android:text="Vector Directory Number" />
+    <TextView
+        android:id="@+id/txt_vdn_extension"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/txt_vdn"
+        android:text="Extension  : 9997" />
+
+    <TextView
+        android:id="@+id/txt_vdn_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/txt_vdn_extension"
+        android:text="Name  : Test VDN" />
+    <TextView
+        android:id="@+id/txt_vdn_desti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/txt_vdn_name"
+        android:text="Destination  : v number   xx" />
+    <TextView
+        android:id="@+id/txt_vdn_overrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/txt_vdn_desti"
+        android:text="Allow VDN Override  : Y/N" />
+    <TextView
+        android:id="@+id/txt_vdn_cor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/txt_vdn_overrid"
+        android:text="COR  : xxx" />
+    <TextView
+        android:id="@+id/txt_vdn_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/txt_vdn_cor"
+        android:text="TN  : xxx" />
+
+    <TextView
+        android:id="@+id/txt_vdn_measured"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/txt_vdn_ten"
+        android:text="Measured  : external/both" />
+
+    <TextView
+        android:id="@+id/txt_vdn_originext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/txt_vdn_measured"
+        android:text="VDN of origin Extension  : xxx" />
+
+    <TextView
+        android:id="@+id/txt_vdn_skillf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/txt_vdn_originext"
+        android:text="1st Skill*  : xxx" />
+
+
+    <TextView
+        android:id="@+id/txt_change_displ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c7d9db"
+        android:layout_below="@+id/txt_vdn_skillf"
+        android:text="display vdn 999" />
+    <TextView
+        android:id="@+id/txt_vdn_chang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/txt_change_displ"
+        android:text="VDN related commands." />
+
+
+    <TextView
+        android:id="@+id/txt_vdn_duplicate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/txt_vdn_chang"
+        android:text="duplicate vdn  : xxx" />
+    <TextView
+        android:id="@+id/txt_vdn_changev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/txt_vdn_duplicate"
+        android:text="change vdn  : xxx" />
+    <TextView
+        android:id="@+id/txt_vdn_listusg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/txt_vdn_changev"
+        android:text="list usage vdn  : xxx" />
+    <TextView
+        android:id="@+id/txt_vdn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/txt_vdn_listusg"
+        android:text="add vdn  : xxx" />
+    <TextView
+        android:id="@+id/txt_star_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/txt_vdn_add"
+        android:text="******* *******" />
+    <TextView
+        android:id="@+id/txt_vdn_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/txt_star_add"
+        android:text="info of VDN" />
+
+
+
+
+</RelativeLayout>
+</ScrollView>

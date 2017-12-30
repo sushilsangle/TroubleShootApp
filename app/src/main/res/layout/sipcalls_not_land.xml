@@ -1,0 +1,290 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sushil.hello.ui.fragment.sip.SIPCallsNotLand">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:background="#afafaf"
+
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_sipcall"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/holo_green_dark"
+            android:background="#afafaf"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_ipclan"
+            android:text="!!! Follow below steps to resolved issue.  !!!"/>
+
+
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcall"
+
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_sipcallf"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcall"
+            android:text="First check how many agnets are logged in that skill using below command in ACD or CMS"/>
+
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:background="#afafaf"
+            android:layout_below="@+id/txt_sipcallf"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_cmd_alrm"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/holo_green_dark"
+            android:background="#afafaf"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcallf"
+            android:text="monitor bcms skill 99"/>
+
+
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_cmd_alrm"
+
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_sipcalls"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_cmd_alrm"
+            android:text="Also you can check agent status in CMS like below.... "/>
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcalls"
+
+            />
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcalls"
+            android:layout_marginStart="127dp"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcalls"
+            android:layout_marginStart="201dp"
+            />
+
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcalls"
+            android:layout_marginStart="290dp"
+            />
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/txt_sipcalls"
+            android:layout_marginStart="110dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_sipcms"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_sipcalls"
+            android:text="Login into CMS       Reports       Real-Time                 Agent-queue     Agent status"/>
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcms"
+
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_sipcalav"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcms"
+            android:text="If agents are on Avail mode then Dial DID number and capture trace from respactive SBC."/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcalav"
+
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_sipcala"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcalav"
+            android:text="Login into SBC via Putty and check calls are hitting on that SBC or not."/>
+
+
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcala"
+
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_sipcalu"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcala"
+            android:text="After successfully login put below command in SBC."/>
+
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:background="#afafaf"
+            android:layout_below="@+id/txt_sipcalu"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_cmd_trac"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/holo_green_dark"
+            android:background="#afafaf"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcalu"
+            android:text="traceSBC"/>
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_cmd_trac"
+
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_sipcl"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_cmd_trac"
+            android:text="Then put        for filter"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_sipcll"
+            android:layout_marginStart="89dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_below="@+id/txt_cmd_trac"
+            android:text="-f"/>
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcll"
+
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_sipcls"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcll"
+            android:text="Once filter is enabled then execute below command with respactive DID like....."/>
+
+
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:background="#afafaf"
+            android:layout_below="@+id/txt_sipcls"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_cmd_traac"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/holo_green_dark"
+            android:background="#afafaf"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_sipcls"
+            android:text="-u 2032691212 "/>
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_cmd_traac"
+
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_sipclsw"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txt_cmd_traac"
+            android:text="After executing above command dial that DID and check the trace in SBC..."/>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

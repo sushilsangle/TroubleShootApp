@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ui.fragment.cmss.AddAgent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_main"
+        android:background="@drawable/cms_sample"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_dictionary"
+        android:layout_below="@+id/img_main"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/cms_dictionry"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_operation"
+        android:layout_below="@+id/img_dictionary"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/cms_dic_option"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_option"
+        android:layout_below="@+id/img_operation"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/cms_menu"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_add"
+        android:layout_below="@+id/img_option"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/cms_add_agent"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        style="@style/MasterTvarrow"
+        android:layout_below="@+id/img_add"
+        />
+    <android.support.v7.widget.AppCompatTextView
+        style="@style/MasterTmargin"
+        android:id="@+id/txt_networ"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/img_add"
+        android:text="Enter agent ID and Name and click on     to add into CMS."/>
+
+    <android.support.v7.widget.AppCompatTextView
+        style="@style/MasterTmargin"
+        android:id="@+id/txt_plus"
+        android:layout_marginStart="263dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/img_add"
+        android:textStyle="bold"
+        android:textColor="#00A695"
+        android:text="+"/>
+
+
+
+</RelativeLayout>
+</ScrollView>

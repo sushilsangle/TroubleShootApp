@@ -1,0 +1,881 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ui.fragment.acd.COR">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_change_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#c7d9db"
+            android:text="change cor 1212" />
+        <TextView
+            android:id="@+id/txt_cor_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@+id/txt_change_id"
+            android:text="Auth Code....!" />
+
+        <TextView
+            android:id="@+id/txt_cor_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="9dp"
+            android:layout_below="@+id/txt_cor_details"
+            android:text="COR Number : 5" />
+        <TextView
+            android:id="@+id/txt_cor_descri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="122dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_cor_no"
+            android:text="COR Description : Testing" />
+
+
+        <TextView
+            android:id="@+id/txt_cor_frl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_cor_descri"
+            android:text="FRL : 0" />
+
+        <TextView
+            android:id="@+id/txt_cor_obserd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_cor_frl"
+            android:text="Can Be Service Observed : n" />
+        <TextView
+            android:id="@+id/txt_cor_observ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="108dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_cor_obserd"
+            android:text="Can Be Service Observer : n" />
+
+        <TextView
+            android:id="@+id/txt_cor_obs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_cor_observ"
+            android:text="COR stands for Class Of Restriction" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/txt_cor_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_obs"
+            android:text="0?" />
+        <TextView
+            android:id="@+id/txt_cor_ye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_obs"
+            android:text="y" />
+
+
+        <TextView
+            android:id="@+id/txt_cor_ou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_one"
+            android:text="1?" />
+        <TextView
+            android:id="@+id/txt_cor_yeu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_one"
+            android:text="y" />
+        <TextView
+            android:id="@+id/txt_cor_ouv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_yeu"
+            android:text="2?" />
+        <TextView
+            android:id="@+id/txt_cor_yeuv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_yeu"
+            android:text="y" />
+        <TextView
+            android:id="@+id/txt_cor_ov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_ouv"
+            android:text="3?" />
+        <TextView
+            android:id="@+id/txt_cor_yeov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_ouv"
+            android:text="y" />
+
+        <TextView
+            android:id="@+id/txt_cor_ovu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_ov"
+            android:text="4?" />
+        <TextView
+            android:id="@+id/txt_cor_yeovu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_ov"
+            android:text="y" />
+
+        <TextView
+            android:id="@+id/txt_cor_ovp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_ovu"
+            android:text="5?" />
+        <TextView
+            android:id="@+id/txt_cor_yeop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_ovu"
+            android:text="y" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/txt_cor_ton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_obs"
+            android:text="6?" />
+        <TextView
+            android:id="@+id/txt_cor_yeton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="102dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_obs"
+            android:text="y" />
+
+
+        <TextView
+            android:id="@+id/txt_cor_tonr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_ton"
+            android:text="7?" />
+        <TextView
+            android:id="@+id/txt_cor_yetonr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="102dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_ton"
+            android:text="y" />
+        <TextView
+            android:id="@+id/txt_cor_tou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_yetonr"
+            android:text="8?" />
+        <TextView
+            android:id="@+id/txt_cor_yetu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="102dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_yetonr"
+            android:text="y" />
+        <TextView
+            android:id="@+id/txt_cor_toq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_tou"
+            android:text="9?" />
+        <TextView
+            android:id="@+id/txt_cor_yetq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="102dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_tou"
+            android:text="y" />
+
+        <TextView
+            android:id="@+id/txt_cor_tq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_toq"
+            android:text="10?" />
+        <TextView
+            android:id="@+id/txt_cor_yeq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="103dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_toq"
+            android:text="y" />
+        <TextView
+            android:id="@+id/txt_cor_tqe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_yeq"
+            android:text="11?" />
+        <TextView
+            android:id="@+id/txt_cor_yqe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="103dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_yeq"
+            android:text="y" />
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/txt_cor_thr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_obs"
+            android:text="12?" />
+        <TextView
+            android:id="@+id/txt_cor_thren"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_obs"
+            android:text="y" />
+
+
+        <TextView
+            android:id="@+id/txt_cor_tr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_thren"
+            android:text="13?" />
+        <TextView
+            android:id="@+id/txt_cor_tn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_thren"
+            android:text="y" />
+        <TextView
+            android:id="@+id/txt_cor_toer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_tn"
+            android:text="14?" />
+        <TextView
+            android:id="@+id/txt_cor_tne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_tn"
+            android:text="y" />
+
+        <TextView
+            android:id="@+id/txt_cor_ter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_toer"
+            android:text="15?" />
+        <TextView
+            android:id="@+id/txt_cor_tner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_toer"
+            android:text="y" />
+
+        <TextView
+            android:id="@+id/txt_cor_tur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_ter"
+            android:text="16?" />
+        <TextView
+            android:id="@+id/txt_cor_tnur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_ter"
+            android:text="y" />
+        <TextView
+            android:id="@+id/txt_cor_tru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_tnur"
+            android:text="17?" />
+        <TextView
+            android:id="@+id/txt_cor_turz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_tnur"
+            android:text="y" />
+
+
+        <TextView
+            android:id="@+id/txt_cor_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="223dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_obs"
+            android:text="18?" />
+        <TextView
+            android:id="@+id/txt_cor_fourt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="251dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_obs"
+            android:text="y" />
+        <TextView
+            android:id="@+id/txt_cor_fo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="223dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_fourt"
+            android:text="19?" />
+        <TextView
+            android:id="@+id/txt_cor_fou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="251dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_fourt"
+            android:text="y" />
+        <TextView
+            android:id="@+id/txt_cor_fr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="223dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_fou"
+            android:text="20?" />
+        <TextView
+            android:id="@+id/txt_cor_fous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="251dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_fou"
+            android:text="y" />
+        <TextView
+            android:id="@+id/txt_cor_fer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="223dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_fous"
+            android:text="21?" />
+        <TextView
+            android:id="@+id/txt_cor_fort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="251dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_fous"
+            android:text="y" />
+
+        <TextView
+            android:id="@+id/txt_cor_feru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="223dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_fer"
+            android:text="22?" />
+        <TextView
+            android:id="@+id/txt_cor_fout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="251dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_fer"
+            android:text="y" />
+        <TextView
+            android:id="@+id/txt_cor_fu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="223dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_feru"
+            android:text="23?" />
+        <TextView
+            android:id="@+id/txt_cor_frt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="251dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_feru"
+            android:text="y" />
+
+        <TextView
+            android:id="@+id/txt_cor_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="289dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_obs"
+            android:text="24?" />
+        <TextView
+            android:id="@+id/txt_cor_yefive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="316dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_obs"
+            android:text="y" />
+        <TextView
+            android:id="@+id/txt_cor_sith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="289dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_yefive"
+            android:text="25?" />
+        <TextView
+            android:id="@+id/txt_cor_yesth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="316dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_yefive"
+            android:text="y" />
+        <TextView
+            android:id="@+id/txt_cor_sevnth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="289dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_yesth"
+            android:text="26?" />
+        <TextView
+            android:id="@+id/txt_cor_yesevnth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="316dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_yesth"
+            android:text="y" />
+
+
+        <TextView
+            android:id="@+id/txt_cor_eith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="289dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_yesevnth"
+            android:text="27?" />
+        <TextView
+            android:id="@+id/txt_cor_yeeith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="316dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_yesevnth"
+            android:text="y" />
+
+        <TextView
+            android:id="@+id/txt_cor_eit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="289dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_eith"
+            android:text="28?" />
+        <TextView
+            android:id="@+id/txt_cor_yth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="316dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_eith"
+            android:text="y" />
+        <TextView
+            android:id="@+id/txt_cor_eitu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="289dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_yth"
+            android:text="29?" />
+        <TextView
+            android:id="@+id/txt_cor_ythr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="316dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#a0a"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_cor_yth"
+            android:text="y" />
+
+
+        <TextView
+            android:id="@+id/txt_cor_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="99dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="21dp"
+            android:layout_below="@+id/txt_cor_ythr"
+            android:text="!!!COR related commands.!!!" />
+
+        <TextView
+            android:id="@+id/txt_cor_dispar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_below="@+id/txt_cor_info"
+            android:text="->" />
+        <TextView
+            android:id="@+id/txt_cor_disp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/txt_cor_info"
+            android:text="display cor  xxx" />
+        <TextView
+            android:id="@+id/txt_cor_chanar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_below="@+id/txt_cor_disp"
+            android:text="->" />
+        <TextView
+            android:id="@+id/txt_cor_chan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_cor_disp"
+            android:text="change cor  xxx" />
+        <TextView
+            android:id="@+id/txt_cor_chaaro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_cor_chan"
+            android:text="->"/>
+
+        <TextView
+            android:id="@+id/txt_cor_cha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_cor_chan"
+            android:text="You can set the COR permission as per your ACD configuration." />
+
+        <TextView
+            android:id="@+id/txt_cor_perar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_below="@+id/txt_cor_cha"
+            android:text="->"/>
+
+
+        <TextView
+            android:id="@+id/txt_cor_per"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_cor_cha"
+            android:text="You can set the FRL as per ACD restrications like Auth Code etc" />
+
+    </RelativeLayout>/
+
+</ScrollView>

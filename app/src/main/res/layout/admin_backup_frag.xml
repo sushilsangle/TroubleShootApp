@@ -1,0 +1,312 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ui.fragment.cmss.AdminBackup">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/img_agetgr"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_networ"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/img_agetgr"
+            android:text="First insert CMS backup Tape into CMS Server"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_networ"
+            android:layout_marginTop="11dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bk"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="11dp"
+            android:layout_below="@+id/txt_networ"
+            android:text="Now login into CMS using"/>
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bck"
+            android:layout_marginStart="193dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="11dp"
+            android:textColor="#00A687"
+            android:layout_below="@+id/txt_networ"
+            android:text="PUTTY"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_bck"
+            android:layout_marginTop="11dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bkcmd"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="11dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_bck"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="After successfully login execute below command in CMS"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_bkcmd"
+            android:layout_marginTop="13dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bkcmdad"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="13dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_bkcmd"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="     #  cmsadm"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bkcmen"
+            android:layout_marginStart="145dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/txt_bkcmd"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="Now just hit enter"/>
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_bkcmen"
+            android:layout_marginTop="13dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bkcmdse"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="13dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_bkcmen"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="Select a command from below list"/>
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_bkcmdse"
+            android:layout_marginTop="5dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bkcmdop"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_bkcmdse"
+            android:text="1 acd_create Define a new ACD"/>
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_bkcmdop"
+            android:layout_marginTop="5dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bkcmbt"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_bkcmdop"
+            android:text="2 acd_remove Remove all adminidtration and data ACD"/>
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_bkcmbt"
+            android:layout_marginTop="5dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bkcmbtr"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_bkcmbt"
+            android:text="3 backup Filesystem backup"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_bkcmbtr"
+            android:layout_marginTop="5dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bkcmbtf"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_bkcmbtr"
+            android:text="4 pkg_install Install a feature package"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_bkcmbtf"
+            android:layout_marginTop="5dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bkcmbtfi"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_bkcmbtf"
+            android:text="5 pkg_remove Remove a feature package"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_bkcmbtfi"
+            android:layout_marginTop="5dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bkcmbts"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_bkcmbtfi"
+            android:text="6 run_pkg Turn a feature packge on or off"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_bkcmbts"
+            android:layout_marginTop="5dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bkcmbtse"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_bkcmbts"
+            android:text="7 run_ids Turn Informix Database on or off"/>
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_bkcmbtse"
+            android:layout_marginTop="5dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bkcmbte"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_bkcmbtse"
+            android:text="8 run_cms Turn Avaya CMS on or off"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_bkcmbte"
+            android:layout_marginTop="5dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bkcmbtn"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_bkcmbte"
+            android:text="9 passwd_age Set password aging options"/>
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_bkcmbtn"
+            android:layout_marginTop="5dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_bkcmbten"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_bkcmbtn"
+            android:text="10 dbaccess Change Informix DB access permissions"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_bkcmbten"
+            android:layout_marginTop="15dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_choce"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/txt_bkcmbten"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="Enter choice (1-10) or q to quit: 3"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_choce"
+            android:layout_marginTop="15dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_tape"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/txt_choce"
+
+            android:text="1  Tape"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_tape"
+            android:layout_marginTop="5dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_tapet"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_tape"
+
+            android:text="2  Other"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_tapet"
+            android:layout_marginTop="15dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_tap"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/txt_tapet"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="Enter choice: 1"/>
+
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

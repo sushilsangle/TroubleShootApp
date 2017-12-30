@@ -1,0 +1,119 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ui.fragment.cmss.CmsAgentGrp">
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_main"
+            android:background="@drawable/cms_sample"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_dictionary"
+            android:layout_below="@+id/img_main"
+            android:layout_marginStart="75dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/cms_dictionry"/>
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_operation"
+            android:layout_below="@+id/img_dictionary"
+            android:layout_marginStart="75dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/cms_dic_option"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_option"
+            android:layout_below="@+id/img_operation"
+            android:layout_marginStart="75dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/cms_agent_opt"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_agetgr"
+            android:layout_below="@+id/img_option"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/cms_agent_ex"/>
+
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/img_agetgr"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_networ"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/img_agetgr"
+            android:text="Enter agent Group Name and click on     to add into CMS."/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_plus"
+            android:layout_marginStart="260dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/img_agetgr"
+            android:textStyle="bold"
+            android:textColor="#00A695"
+            android:text="+"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_plus"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_grop"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/txt_plus"
+            android:text="Enter Agent Group name which is already prasent in CMS."/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTvarrow"
+            android:layout_below="@+id/txt_grop"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/MasterTmargin"
+            android:id="@+id/txt_group"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/txt_grop"
+            android:text="Then clicl on second last button (Get Content)"/>
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_get"
+            android:layout_below="@+id/txt_grop"
+            android:layout_marginStart="318dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/cms_getcon"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Hello</string>
+    <string name="title_activity_navigation_main">NavigationMainA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- <string name="rm_chr_*._*&_rm_file_name"><[rm chr*.*& rm File Name]></string>-->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rm_chr_rm_file_name"><![CDATA[rm chr*.*& rm File Name]]></string>
+    <string name="title_activity_testing">Testing</string>
+</resources>
