@@ -1,5 +1,4 @@
-package com.example.sushil.hello.ui.ui.fragment.acd;
-
+package com.example.sushil.hello.ui.fragment.acd;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
